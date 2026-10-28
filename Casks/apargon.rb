@@ -8,7 +8,7 @@ cask "apargon" do
   url "https://github.com/Orcaryn/Apargon/releases/download/v#{version}/Apargon-#{version}-#{arch}.zip"
   name "Apargon"
   desc "Runs an HTML file as a desktop app with only the access its tags ask for"
-  homepage "https://apargon.com/"
+  homepage "https://github.com/Orcaryn/Apargon"
 
   auto_updates true
   depends_on macos: :ventura
