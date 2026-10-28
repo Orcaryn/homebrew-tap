@@ -1,6 +1,7 @@
 # Orcaryn Homebrew tap
 
 ```sh
+brew trust --cask orcaryn/tap/apargon
 brew install --cask orcaryn/tap/apargon
 ```
 
