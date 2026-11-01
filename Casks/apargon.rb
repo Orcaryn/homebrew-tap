@@ -1,11 +1,11 @@
 cask "apargon" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "8933679defc3b2c7742f04de517131aa1cf6343c83e341525f0d4988cf02fa94",
-         intel: "8bdeb9a453df9a9708fc4a150ded3e4a9004d11b4b9002c07603212c11a837a5"
+  version "0.4.0"
+  sha256 arm:   "53384e379d190abc097eb99787593f88835a55142a81ad67e168cf8a49738e7a",
+         intel: "91e0d78e45b5d424673b9c6d87bf4ba40c7c3a7d1d30774209fb7c8dfbb70323"
 
-  url "https://github.com/Orcaryn/Apargon/releases/download/v#{version}/Apargon-#{version}-#{arch}.zip"
+  url "https://github.com/Orcaryn/Apargon/releases/download/v#{version}/Apargon-#{arch}.zip"
   name "Apargon"
   desc "Runs an HTML file as a desktop app with only the access its tags ask for"
   homepage "https://github.com/Orcaryn/Apargon"
