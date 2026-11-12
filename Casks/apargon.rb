@@ -1,9 +1,9 @@
 cask "apargon" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.4.0"
-  sha256 arm:   "53384e379d190abc097eb99787593f88835a55142a81ad67e168cf8a49738e7a",
-         intel: "91e0d78e45b5d424673b9c6d87bf4ba40c7c3a7d1d30774209fb7c8dfbb70323"
+  version "0.5.0"
+  sha256 arm:   "b49c43a55eab8a4447a60a3882e547762f12cf17b066ca86c5671f5b289b3d27",
+         intel: "46150348091654180afbcd4546f898861ab4d93931ee543aaad756438bd757b6"
 
   url "https://github.com/Orcaryn/Apargon/releases/download/v#{version}/Apargon-#{arch}.zip"
   name "Apargon"
